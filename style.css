@@ -1,0 +1,137 @@
+/* Getting Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    background: #5372f0;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background: rgb(198, 228, 240);
+}
+
+.container {
+    display: flex;
+    padding: 35px;
+    gap: 30px;
+    justify-content: center;
+}
+
+@media (max-width: 750px) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.WeatherInput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background: rgba(240, 248, 255, 0.628); */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.WeatherInput>p {
+    font-weight: 700;
+}
+
+.cityname {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.inputbutton {
+    background: #5372f0;
+    border: #5372f0;
+    padding: 10px;
+    width: 100%;
+    color: azure;
+    font-weight: 500;
+}
+
+.UseLocationbtn {
+    background: rgb(117, 112, 112);
+}
+
+.seperator {
+    height: 2px;
+    background: silver;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seperator::before {
+    content: "or";
+    background-color: rgb(198, 228, 240);
+    padding: 0px 5px;
+
+}
+
+section {
+    width: 120%;
+}
+
+.CurrentWeather {
+    background-color: #5372f0;
+    padding: 15px;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.currentdataimg>img {
+    max-width: 100px;
+    margin-top: -10px;
+}
+
+.ForcastTabs {
+    margin: 12px 0px;
+}
+.ForcastTabs >h2{
+    margin-bottom: 10px;
+}
+
+.weathercards {
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: #676767;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.card img {
+    max-width: 70px;
+}

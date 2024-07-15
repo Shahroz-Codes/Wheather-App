@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wheather App</title>
+</head>
+
+<body>
+    <h2 class="title">Weather Dashboard</h2>
+    <div class="container">
+        <div class="WeatherInput">
+            <p class="text">Enter a City Name</p>
+            <input type="text" placeholder="e.g London,Lahore,Berlin" class="cityname" spellcheck="false">
+            <button class="inputbutton SearchButton">Search</button>
+            <div class="seperator"></div>
+            <button class="inputbutton UseLocationbtn">Use Current Location</button>
+        </div>
+        <section>
+            <div class="CurrentWeather">
+                <div class="data">
+                    <h2>London (2023-7-15)</h2>
+                    <h4 class="temperature1">Temperature : 18.7 &degc</h4>
+                    <h4 class="wind1">Wind : 4.57M/S</h4>
+                    <h4 class="humidity1">Humidity : 50%</h4>
+                </div>
+                <div class="currentdataimg">
+                    <img src="assets/images/clouds.png" alt="p">
+                    <h4>Moderate Rain</h4>
+                </div>
+            </div>
+            <div class="ForcastTabs">
+                <h2>4-Day Forecast</h2>
+
+                <ul class="weathercards">
+                    <li class="card">
+                        <h3>(2023-7-15)</h3>
+                        <img src="assets/images/clouds.png" alt="p">
+                        <h4 class="temperature1">Temp : 18.7 &degc</h4>
+                        <h4 class="wind1">Wind : 4.57M/S</h4>
+                        <h4 class="humidity1">Humidity : 50%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>(2023-7-15)</h3>
+                        <img src="assets/images/clouds.png" alt="p">
+                        <h4 class="temperature1">Temp : 18.7 &degc</h4>
+                        <h4 class="wind1">Wind : 4.57M/S</h4>
+                        <h4 class="humidity1">Humidity : 50%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>(2023-7-15)</h3>
+                        <img src="assets/images/clouds.png" alt="p">
+                        <h4 class="temperature1">Temp : 18.7 &degc</h4>
+                        <h4 class="wind1">Wind : 4.57M/S</h4>
+                        <h4 class="humidity1">Humidity : 50%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>(2023-7-15)</h3>
+                        <img src="assets/images/clouds.png" alt="p">
+                        <h4 class="temperature1">Temp : 18.7 &degc</h4>
+                        <h4 class="wind1">Wind : 4.57M/S</h4>
+                        <h4 class="humidity1">Humidity : 50%</h4>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
