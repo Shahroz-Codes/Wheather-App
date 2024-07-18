@@ -123,4 +123,3 @@ const Get_User_Coordinates = () => {
 SearchBtn.addEventListener('click', Get_City_Coordinates);
 LocationBtn.addEventListener('click', Get_User_Coordinates);
 cityinput.addEventListener("keyup", e => e.key === "Enter" && Get_City_Coordinates());
-
