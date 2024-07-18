@@ -108,7 +108,10 @@ section {
     max-width: 100px;
     margin-top: -10px;
 }
+.currentdataimg h4{
+    text-align: center;
 
+}
 .ForcastTabs {
     margin: 12px 0px;
 }
